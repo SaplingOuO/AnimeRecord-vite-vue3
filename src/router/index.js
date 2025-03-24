@@ -1,5 +1,5 @@
 // Vue Router定義所有頁面的路由
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "../pages/Home.vue";
 import AnimeDetail from "../pages/AnimeDetail.vue";
 import Collection from "../pages/Collection.vue";
@@ -15,7 +15,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(), // ⬅️ 改成 Hash 模式，避免 GitHub Pages 404
   routes,
 });
 
