@@ -1,6 +1,18 @@
 <!-- Vue 主應用元件 -->
 <script setup>
 import Navbar from "./components/Navbar.vue";
+import { useRoute } from "vue-router";
+import { watch } from "vue"; // ✅ 這裡要引入 watch
+
+const route = useRoute();
+
+// 監聽路由變化，自動更新標題
+watch(
+  () => route.path, // ✅ 這裡改成監聽 route.path，避免 Vue 3 reactivity 錯誤
+  () => {
+    document.title = route.meta.title || "AnimeRecord-Vite-Vue3";
+  }
+);
 </script>
 
 <template>
