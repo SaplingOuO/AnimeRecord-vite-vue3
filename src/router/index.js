@@ -5,6 +5,7 @@ import AnimeDetail from "../pages/AnimeDetail.vue";
 import Collection from "../pages/Collection.vue";
 import Test from "../pages/Test.vue";
 import Login from "../pages/Login.vue";
+import User from "../pages/User.vue";
 
 const routes = [
   { path: "/", redirect: "/Home" }, // 👈 這行確保 `/` 會正確導向
@@ -13,6 +14,7 @@ const routes = [
   { path: "/collection", component: Collection, meta: { title: "收藏列表 | AnimeRecord" } },
   { path: "/test", component: Test, meta: { title: "測試頁面 | AnimeRecord" } },
   { path: "/login", component: Login, meta: { title: "登入 | AnimeRecord" } },
+  { path: "/user", component: User, meta: { title: "使用者資訊 | AnimeRecord" } },
 ];
 
 const router = createRouter({

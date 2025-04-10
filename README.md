@@ -32,7 +32,7 @@ AnimeRecord-Vite-Vue3
 >>>animeService.js **負責與動畫 API 進行溝通，像是取得動畫資料等。**
 >>assets **靜態資源**
 >>>vue.svg **Vue 標誌，用在 Navbar 或首頁的 Logo。**
->>components **這裡的檔案通常是小型、可重複使用的 UI 元件。**
+>>components **可重複使用的 UI 元件。**
 >>>AnimeCard.vue **顯示單個動畫的資訊，例如圖片、標題等。**
 >>>AnimeList.vue **負責顯示多個 AnimeCard.vue，類似動畫列表的區塊。**
 >>>Navbar.vue **頂部導覽列，可能包含首頁、收藏列表、登入等連結。**
@@ -44,10 +44,13 @@ AnimeRecord-Vite-Vue3
 >>>Home.vue **首頁，可能包含熱門動畫、推薦動畫等。**
 >>>Login.vue **登入頁面，讓使用者登入帳號。**
 >>>Test.vue **測試用的頁面。**
+>>>User.vue **使用者資訊頁面**
 >>router **Vue Router 設定**
 >>>index.js **設定 Vue Router，定義所有頁面的路由。**
 >>store **狀態管理**
 >>>animeStore.js **使用 Pinia 管理動畫的收藏功能。**
+>>>authStore.js **保持登入管理**
+>>>userStore.js **使用者資訊管理**
 >>styles **全域樣式**
 >>>main.css **儲存全站的 CSS 樣式。**
 >>App.vue **主要 Vue 應用**
