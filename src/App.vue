@@ -10,7 +10,7 @@ const route = useRoute();
 watch(
   () => route.path, // ✅ 這裡改成監聽 route.path，避免 Vue 3 reactivity 錯誤
   () => {
-    document.title = route.meta.title || "AnimeRecord-Vite-Vue3";
+    document.title = route.meta.title || "AnimeRecord-vite-vue3";
   }
 );
 </script>

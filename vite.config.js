@@ -13,5 +13,5 @@ import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
   plugins: [vue()],
-  base: "/AnimeRecord-Vite-Vue3/",
+  base: "/AnimeRecord-vite-vue3/",
 });
