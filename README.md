@@ -27,9 +27,11 @@ AnimeRecord-Vite-Vue3
 資料結構
 >public **資料夾中的檔案不會被 Vite 進行打包，它們會直接放入最終的 dist/ 目錄。**
 >>404.html **自訂 404 頁面，當找不到路由時顯示。**
+
 >src **專案的主要程式碼，包含 API、元件、頁面、狀態管理、樣式等。**
 >>api **API 相關**
 >>>animeService.js **負責與動畫 API 進行溝通，像是取得動畫資料等。**
+
 >>assets **靜態資源**
 >>>vue.svg **Vue 標誌，用在 Navbar 或首頁的 Logo。**
 >>components **可重複使用的 UI 元件。**
