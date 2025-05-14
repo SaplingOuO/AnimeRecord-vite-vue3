@@ -4,7 +4,7 @@ pinia
 axios
 tailwindcss
 
-API(https://jikan.moe/) 
+API(https://jikan.moe/、https://docs.anilist.co/) 
 https://docs.api.jikan.moe/#section/Information
 
 AnimeRecord-Vite-Vue3
@@ -53,6 +53,8 @@ AnimeRecord-Vite-Vue3
 >>>Home.vue **首頁，可能包含熱門動畫、推薦動畫等。**
 
 >>>Login.vue **登入頁面，讓使用者登入帳號。**
+
+>>>Search.vue **使用AniList API製作的動漫搜尋頁面**
 
 >>>Test.vue **測試用的頁面。**
 

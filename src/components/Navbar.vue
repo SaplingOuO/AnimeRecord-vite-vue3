@@ -16,6 +16,7 @@ const logout = () => {
     <div class="container">
       <router-link class="navbar-brand" to="/">動畫館</router-link>
       <div>
+        <router-link class="nav-link d-inline text-white mx-2" to="/search">搜尋</router-link>
         <router-link class="nav-link d-inline text-white mx-2" to="/test">測試</router-link>
         <router-link class="nav-link d-inline text-white mx-2" to="/collection">收藏</router-link>
 

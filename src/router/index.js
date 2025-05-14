@@ -3,6 +3,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "../pages/Home.vue";
 import AnimeDetail from "../pages/AnimeDetail.vue";
 import Collection from "../pages/Collection.vue";
+import Search from "../pages/Search.vue";
 import Test from "../pages/Test.vue";
 import Login from "../pages/Login.vue";
 import User from "../pages/User.vue";
@@ -12,6 +13,7 @@ const routes = [
   { path: "/Home", component: Home, meta: { title: "首頁 | AnimeRecord" } },
   { path: "/anime/:id", component: AnimeDetail, meta: { title: "動畫詳情 | AnimeRecord" } },
   { path: "/collection", component: Collection, meta: { title: "收藏列表 | AnimeRecord" } },
+  { path: "/Search", component: Search, meta: { title: "搜尋 | AnimeRecord" } },
   { path: "/test", component: Test, meta: { title: "測試頁面 | AnimeRecord" } },
   { path: "/login", component: Login, meta: { title: "登入 | AnimeRecord" } },
   { path: "/user", component: User, meta: { title: "使用者資訊 | AnimeRecord" } },
