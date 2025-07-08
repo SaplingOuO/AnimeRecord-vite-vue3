@@ -58,7 +58,7 @@
   </div>
   
     <!-- 熱門動畫 Carousel -->
-    <div v-if="showCarousel" class="mt-5 mx-auto" style="max-width: 350px;">
+    <div v-if="showCarousel" class=" mx-auto" style="max-width: 350px;">
       <h2 class="text-center mb-4">熱門動畫</h2>
       <div id="animeCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
